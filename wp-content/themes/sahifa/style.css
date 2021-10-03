@@ -16,6 +16,7 @@
  * Main Styles
  * -----------------------------------------------------------------------------
  */
+ 
 
 * {
 	padding: 0;
@@ -146,6 +147,10 @@ select {
 	border: 1px solid #ccc;
 	background: #fff;
 	font-size: inherit;
+}
+.header-brand
+{
+    display:inline;
 }
 
 textarea {
@@ -4300,7 +4305,7 @@ p.welcome-text {
 	line-height: 20px;
 }
 
-#sidebar .slider-caption h2 a {
+#sidebar .slider-caption h2  {
 	font-size: 18px;
 }
 
@@ -9122,4 +9127,16 @@ body.dark-skin #review-box h2.review-box-header {
 		float: none;
 		width: 100%;
 	}
+}
+.sidebar-left
+{
+  
+}
+.sidebar-left .content
+{
+   
+  float:right;
+  padding: 20px 20px 0px 15px;
+  margin:0px 40px 0px 0px;
+ border: 3px solid #D8D8D8;
 }

@@ -8,11 +8,7 @@
 			else {
 				options = $.ajaxyLiveSearch.defaults;
 			}
-            // this creates a plugin for each element in
-            // the selector or runs the function once per
-            // selector.  To have it do so for just the
-            // first element (once), return false after
-            // creating the plugin to stop the each iteration 
+            
 			if(this.is("input")){
 				this.each(function() {
 					new $.ajaxyLiveSearch.load(this, options, arg );

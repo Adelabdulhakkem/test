@@ -9107,17 +9107,9 @@ body.dark-skin #review-box h2.review-box-header {
 		width: 100%;
 	}
 }
-
-
-@media only screen and (max-width: 650px)
-{
-    #main-nav
-    {
-   
-  	  display:inline-block;
-       
-    }
-    
-   
-
+@media only screen and (max-width: 650px){
+	#topcontrol{
+		margin-right:210px;
+	}
 }
+
